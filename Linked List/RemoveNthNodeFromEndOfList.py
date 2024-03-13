@@ -28,7 +28,7 @@ class Solution:
         return head
 
 
-#Dummy node + fast & slow pointer
+#Dummy node + 2 pointers with offset n
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         if not head.next:
